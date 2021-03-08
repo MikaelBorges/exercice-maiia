@@ -1,0 +1,22 @@
+// DESKTOP
+@media screen and (min-width: 1181px) {
+  .body {
+    .article {
+      &-content {
+        & > .article-subcontent {
+          width: 80%;
+        }
+      }
+    }
+
+    .article-image {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+    }
+
+    .team {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
